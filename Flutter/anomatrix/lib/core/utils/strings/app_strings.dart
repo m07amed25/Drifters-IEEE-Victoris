@@ -3,7 +3,7 @@ class AppStrings {
   static const String appName = "Anomatrix";
 
   static const List<String> onboardingTittles=[
-    "Welcome to Anomatrix ",
+    "Welcome to InfiShield",
     "Smart AI Camera",
     "Automatic Detached"
   ];
@@ -41,5 +41,10 @@ class AppStrings {
   static const String newPassword = "New Password";
 
   static const String congratulations ="Congratulations";
+  static const String hint ='****';
+  static const String firstname ='First Name';
+  static const String lastname ='Last Name';
+
+
 
 }

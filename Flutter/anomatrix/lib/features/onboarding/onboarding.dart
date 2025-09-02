@@ -6,6 +6,8 @@ import 'package:anomatrix/features/onboarding/widgets/smooth_page_indicator.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../auth/login/presentation/screen/login.dart';
+
 List<String>onboardingImage = [
   "assets/images/onboarding-1.png",
   "assets/images/onboarding-2.png",
@@ -73,16 +75,16 @@ class _OnboardingState extends State<Onboarding> {
                                   customSmoothPageIndicator(controller: pageController, length: onboardingImage.length),
                                   const Spacer(),
                                   CustomButton(
-                                      width: 82.w,
-                                      height: 31.h,
-                                      text: AppStrings.next,
-                                      onTap:(){
-                                        if(isLast){
+                                    onTap: () {
+                                        Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) => Login(),
+                                          ),
+                                        );
 
-                                        }else{
-                                          pageController.nextPage(duration: Duration(milliseconds:750), curve:Curves.fastOutSlowIn);
-                                        }
-                                      }
+                                    },
+                                    buttonText: AppStrings.next,
                                   ),
                                 ],
                               )

@@ -29,7 +29,7 @@ class OnboardingTittleAndSubTittle extends StatelessWidget {
           overflow: TextOverflow.ellipsis,
           textAlign: TextAlign.center,
           style: TextStyle(
-            color: ColorManager.textColor,
+            color: ColorManager.maincolor,
             fontSize: 20.sp,
           ),
         ),

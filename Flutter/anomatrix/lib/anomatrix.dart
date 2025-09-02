@@ -3,6 +3,8 @@ import 'package:anomatrix/features/onboarding/onboarding.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import 'features/auth/sing_up/presentation/screen/sing_up.dart';
+
 class Anomatrix extends StatelessWidget {
   const Anomatrix({super.key});
 
@@ -16,7 +18,7 @@ class Anomatrix extends StatelessWidget {
         return MaterialApp(
           theme: appTheme,
             debugShowCheckedModeBanner: false,
-            home: Onboarding()
+            home: SingUp()
         );
         },
     );
