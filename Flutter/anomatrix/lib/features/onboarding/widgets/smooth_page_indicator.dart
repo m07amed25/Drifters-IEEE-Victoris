@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -13,12 +12,12 @@ SmoothPageIndicator customSmoothPageIndicator ({required PageController controll
     effect:WormEffect(
         spacing:8.0.w,
         radius:20.0.r,
-        dotWidth:10.w,
-        dotHeight:8.h,
+        dotWidth:6.w,
+        dotHeight:6.h,
         paintStyle:PaintingStyle.fill,
         strokeWidth:  1,
         dotColor:  Colors.white,
-        activeDotColor:  ColorManager.primaryColor
+        activeDotColor:  ColorManager.secondaryColor
     ),
   );
 }

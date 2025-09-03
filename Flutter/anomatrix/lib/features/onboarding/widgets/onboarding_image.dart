@@ -10,7 +10,7 @@ class OnboardingImage extends StatelessWidget {
     return Image.asset(
       image,
       width: double.infinity,
-      height: 320.h,
+      height: 368.h,
       fit: BoxFit.cover,
     );
   }

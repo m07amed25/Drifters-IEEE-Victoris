@@ -3,18 +3,20 @@ class AppStrings {
   static const String appName = "Anomatrix";
 
   static const List<String> onboardingTittles=[
-    "Welcome to InfiShield",
+    "Welcome",
     "Smart AI Camera",
     "Automatic Detached"
   ];
 
   static const List<String> onboardingSubTittles =[
-    "your trusted shield that keeps\nyour digital world safe, private,\nand always protected.”",
+    "your trusted shield that keeps\nyour digital world safe, private,\nand always protected",
     "It's a regular surveillance\ncamera, but it's connected to\nartificial intelligence that\nenables it to understand what\nit's seeing, rather than just\nrecording video.",
     "Automatic keeps the element\nlinked to the main component,\nwhile Detached makes it\nindependent for unique edits"
   ];
 
   static const String next = "Next";
+
+  static const String back ="Back";
 
   static const String signUp ="Sign Up";
 
@@ -32,6 +34,8 @@ class AppStrings {
 
   static const String alreadyHaveAccount = "Already have an account?";
 
+  static const String doesNotHaveAccount ="Doesn't have an account ?";
+
   static const String rememberMe ="Remember Me";
 
   static const String forgetPassword = "Forget Password?";
@@ -41,8 +45,11 @@ class AppStrings {
   static const String newPassword = "New Password";
 
   static const String congratulations ="Congratulations";
+
   static const String hint ='****';
+
   static const String firstname ='First Name';
+
   static const String lastname ='Last Name';
 
 

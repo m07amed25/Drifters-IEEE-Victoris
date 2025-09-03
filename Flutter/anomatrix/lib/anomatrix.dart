@@ -18,7 +18,7 @@ class Anomatrix extends StatelessWidget {
         return MaterialApp(
           theme: appTheme,
             debugShowCheckedModeBanner: false,
-            home: SingUp()
+            home: Onboarding()
         );
         },
     );

@@ -16,11 +16,11 @@ class OnboardingTittleAndSubTittle extends StatelessWidget {
         Text(
           tittle,
           overflow: TextOverflow.ellipsis,
-          maxLines: 2,
           textAlign: TextAlign.center,
+          maxLines: 2,
           style: TextStyle(
               color: Color(0xFF11DDF0),
-              fontSize: 40.sp,
+              fontSize: 34.sp,
               fontWeight: FontWeight.bold
           ),
         ),
@@ -29,8 +29,8 @@ class OnboardingTittleAndSubTittle extends StatelessWidget {
           overflow: TextOverflow.ellipsis,
           textAlign: TextAlign.center,
           style: TextStyle(
-            color: ColorManager.maincolor,
-            fontSize: 20.sp,
+            color: ColorManager.greyColor,
+            fontSize: 18.sp,
           ),
         ),
       ],
